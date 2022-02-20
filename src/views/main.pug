@@ -1,0 +1,12 @@
+html
+  head
+    link(rel="stylesheet", href="/main.css")
+  body 
+    h1 main 
+    h2 Nickname
+    div nickname
+
+    h2 Profile 
+    form(action=`/user/15/profile` method="post" enctype="multipart/form-data")
+      input(type="file" name="profile")
+      button Upload Profile Picture
